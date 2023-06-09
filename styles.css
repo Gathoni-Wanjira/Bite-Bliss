@@ -93,3 +93,53 @@
     background: #f44336;
   }
   
+
+  /* Cuisines styling */
+
+  .cuisines {
+    text-align: center;
+    padding-top: 100px;
+    width: 90%;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 36px;
+    font-weight: 600;
+  }
+  
+  p {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px;
+    line-height: 22px;
+    color: #777;
+  }
+  
+  /* Rows styling applies to the 3 columns of cuisines in general */
+  .cuisine-rows {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Course columns specifically applies to all the 3 columns each separately. */
+  .cuisine-column {
+    flex-basis: 30%;
+    background-color: #f3deba;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    box-sizing: border-box;
+    padding: 20px 17px;
+    transition: 0.5s;
+  }
+  
+  h3 {
+    font-weight: 600;
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  .cuisine-column :hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
+  }
